@@ -24,6 +24,9 @@ var winner = document.getElementsByTagName("h1")[0];
 if(x > y){
   winner.innerHTML = "Player 1 Won";
 }
+else if(x === y){
+  winner.innerHTML = "Draw";
+}
 else{
   winner.innerHTML = "Player 2 Won";
 }
